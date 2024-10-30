@@ -1,0 +1,66 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+.bi-instagram {
+     color: lightpink;
+     font-size: 70px;
+}
+
+.bi-tiktok {
+    color: lightpink;
+    font-size: 70px;
+}
+
+.bi-mailbox-flag {
+    color: lightpink;
+    font-size: 70px;
+}
+
+.navbar-custom {
+    background-color: white; 
+}
+
+.header-image {
+    background-image: url('phimu banner.jpg'); 
+    background-size: contain;          
+    background-position: center;     
+    background-repeat: no-repeat;    
+    height: 100vh;                   
+    width: 100%;                     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;                    
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header-image {
+        height: 50vh; 
+    }
+
+#mainNav {
+    height: 60px;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffb6c1; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #ff8ca1; 
+}
+.navbar-nav .nav-link {
+    background-color: #F3F0EB; 
+    color: white; 
+    padding: 8px 16px; 
+    border-radius: 5px; 
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ff8ca1; 
+    color: white;
+}
+
+
